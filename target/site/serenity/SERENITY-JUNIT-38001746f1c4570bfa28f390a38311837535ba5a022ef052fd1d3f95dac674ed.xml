@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="1" name="com.gorest.gorestinfo.UserCRUDTest" skipped="0" tests="4" time="5.37" timestamp="2023-08-08T15:40:27.336+01:00[Europe/London]"><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Updating the user and verifying updated information."><error message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;301&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;301&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;301&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.gorestinfo.UserSteps.updateUser(UserSteps.java:83)&#13;
+com.gorest.gorestinfo.UserCRUDTest.test003(UserCRUDTest.java:54)&#13;
+</system-err></testcase><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Deleting the user and verifying user was deleted."><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;301&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;301&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;301&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.gorestinfo.UserCRUDTest.test004(UserCRUDTest.java:63)&#13;
+</system-err></testcase><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Creating a new user"><error message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;301&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;301&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;301&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.gorestinfo.UserSteps.createUser(UserSteps.java:28)&#13;
+com.gorest.gorestinfo.UserCRUDTest.test01(UserCRUDTest.java:29)&#13;
+</system-err></testcase><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Verify user is created by id"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)&#13;
+com.gorest.gorestinfo.UserSteps.getUersDetailBYId(UserSteps.java:49)&#13;
+com.gorest.gorestinfo.UserCRUDTest.test02(UserCRUDTest.java:35)&#13;
+</system-err></testcase></testsuite>

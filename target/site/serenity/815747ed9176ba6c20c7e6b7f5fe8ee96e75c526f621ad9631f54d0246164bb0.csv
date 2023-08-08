@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User CRUD test","Deleting the user and verifying user was deleted.","FAILURE","2023-08-08T13:34:53.871+01:00[Europe/London]","0.0","0.19"
